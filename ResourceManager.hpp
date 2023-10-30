@@ -6,10 +6,8 @@ class ResourceManager
 {
     // Twoja implementacja tutaj
 public:
-    ResourceManager() {
-        a = 10;
-    };
-    ~ResourceManager() {};
+    ResourceManager() { a = 10;    }
+    ~ResourceManager() {}
 
     double get() {
         return a;
