@@ -1,6 +1,8 @@
 #pragma once
+
+#include "include/Resource.hpp"
+
 #include<iostream>
-#include "Resource.hpp"
 
 class ResourceManager
 {
