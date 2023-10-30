@@ -37,3 +37,4 @@
 *
 # only this file is allowed to commit
 !ResourceManager.hpp
+CMakeLists.txt

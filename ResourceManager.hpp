@@ -35,5 +35,5 @@ public:
         for(int i=0; i<dlugosc; i++) std::cout<<wektor[i]<<std::endl;
     }
     double* wektor;
-    int dlugosc;
+    int dlugosc, pojemnosc;
 };
