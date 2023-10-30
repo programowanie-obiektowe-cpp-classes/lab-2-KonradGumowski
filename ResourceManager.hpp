@@ -18,6 +18,7 @@ public:
     double get() {
         return moje_zasoby->get();//moje_zasoby.get();
     }
+Resource& operator=(const Resource& r) { return *this; }
 private:
     Resource* moje_zasoby;
 };
