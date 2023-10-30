@@ -12,7 +12,7 @@ public:
     moje_zasoby=new Resource();
     }
     ~ResourceManager() {
-        delete[] moje_zasoby;
+        delete moje_zasoby;
     }
 
     double get() {
