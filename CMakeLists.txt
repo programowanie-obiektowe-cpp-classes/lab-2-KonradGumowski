@@ -7,7 +7,7 @@ target_include_directories(Lab2 INTERFACE include)
 set_target_properties(Lab2 PROPERTIES
     INTERFACE_COMPILE_FEATURES cxx_std_17
 )
-// tutaj dodaje moja kompilacje
+
 add_executable(lab "main.cpp")
 
 add_executable(zad1 "test.cpp" "zad1.cpp")
