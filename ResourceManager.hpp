@@ -18,7 +18,7 @@ public:
     double get() {
         return moje_zasoby->get();//moje_zasoby.get();
     }
-    ResourceManager& operator=(const ResourceManager& t) { return *this; }
+ //   ResourceManager& operator=(const ResourceManager& t) { return *this; }
 
 private:
     Resource* moje_zasoby;
